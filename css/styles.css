@@ -9,10 +9,6 @@ body {
   color: #434455;
 }
 
-header {
-  border-bottom: 1px solid;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -54,7 +50,7 @@ h6 {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -156,7 +152,6 @@ h6 {
 
 .section-title {
   background-color: #2e2f42;
-  width: 100%;
   padding-bottom: 188px;
 }
 
@@ -184,9 +179,6 @@ h6 {
   background-color: #404bbf;
 }
 
-.section-advantages {
-  width: 100%;
-}
 .advantages {
   display: flex;
   gap: 24px;
@@ -216,7 +208,7 @@ h6 {
   padding-left: 16px;
 }
 
-.section-team {
+.container-color {
   background-color: #f4f4fd;
 }
 
@@ -245,10 +237,6 @@ h6 {
 }
 
 .team-name-title {
-  text-align: center;
-}
-
-.team-text-title {
   text-align: center;
 }
 
@@ -281,14 +269,8 @@ h6 {
 
 .footer-menu {
   background-color: #2e2f42;
-  height: 312px;
-  width: 100%;
   padding-top: 100px;
-  padding-bottom: 16px;
-}
-
-.logo-footer {
-  padding-left: 156px;
+  padding-bottom: 100px;
 }
 
 .footer-logo-link {
@@ -303,7 +285,6 @@ h6 {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-left: 156px;
-  max-width: 270px;
-  padding-top: 16px;
+  max-width: 264px;
+  padding-top: 17.5px;
 }

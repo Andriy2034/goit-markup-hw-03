@@ -54,16 +54,16 @@
       </div>
     </header>
     <main>
-      <div class="container">
-        <section class="section-title">
+      <section class="section-title">
+        <div class="container">
           <div class="section-title-item">
             <h1 class="section-title-link">
               Effective Solutions for Your Business
             </h1>
           </div>
           <button type="button" class="button-service">Order Service</button>
-        </section>
-      </div>
+        </div>
+      </section>
       <section class="section-advantages">
         <div class="container">
           <h2 class="visually-hidden">Advantages</h2>
@@ -100,7 +100,7 @@
         </div>
       </section>
       <section class="section-team">
-        <div class="container container-color">
+        <div class="container">
           <h2 class="section-team-title">Our Team</h2>
           <ul class="images-title-text">
             <li class="images-team">
@@ -110,8 +110,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="name-title team-name-title">Mark Guerrero</h3>
-              <p class="text-title team-text-title">Product Designer</p>
+              <div class="section-team-wrapper">
+                <h3 class="name-title">Mark Guerrero</h3>
+                <p class="text-title">Product Designer</p>
+              </div>
             </li>
             <li class="images-team">
               <img
@@ -120,8 +122,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="name-title team-name-title">Tom Ford</h3>
-              <p class="text-title team-text-title">Frontend Developer</p>
+              <div class="section-team-wrapper">
+                <h3 class="name-title team-name-title">Tom Ford</h3>
+                <p class="text-title team-text-title">Frontend Developer</p>
+              </div>
             </li>
             <li class="images-team">
               <img
@@ -130,8 +134,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="name-title team-name-title">Camila Garcia</h3>
-              <p class="text-title team-text-title">Marketing</p>
+              <div class="section-team-wrapper">
+                <h3 class="name-title team-name-title">Camila Garcia</h3>
+                <p class="text-title team-text-title">Marketing</p>
+              </div>
             </li>
             <li class="images-team">
               <img
@@ -140,8 +146,10 @@
                 width="264"
                 height="260"
               />
-              <h3 class="name-title team-name-title">Daniel Wilson</h3>
-              <p class="text-title team-text-title">UI Designer</p>
+              <div class="section-team-wrapper">
+                <h3 class="name-title team-name-title">Daniel Wilson</h3>
+                <p class="text-title team-text-title">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -226,8 +234,8 @@
         </div>
       </section>
     </main>
-    <footer>
-      <div class="container footer-menu">
+    <footer class="footer-menu">
+      <div class="container">
         <a href="./index.html" class="logo logo-footer"
           >Web<span class="footer-logo-link">Studio</span></a
         >

@@ -217,7 +217,6 @@ h6 {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .images-team {
@@ -238,7 +237,7 @@ h6 {
 .section-team {
   background-color: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 72px;
+  padding-bottom: 120px;
 }
 
 .section-team-title {
@@ -247,6 +246,7 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding-bottom: 72px;
 }
 
 .portfolio-title {

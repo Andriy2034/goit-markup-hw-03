@@ -11,8 +11,6 @@ body {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 ul {
   list-style-type: none;
@@ -67,6 +65,8 @@ h6 {
 .header-navigation {
   display: flex;
   align-items: center;
+  /* padding-bottom: 24px;
+  padding-top: 24px; */
 }
 .container-header {
   display: flex;
@@ -79,6 +79,8 @@ h6 {
   justify-content: flex-start;
   flex-direction: row;
   gap: 0px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .logo {
@@ -106,6 +108,8 @@ h6 {
   justify-content: flex-start;
   flex-direction: row;
   gap: 40px;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 .menu-link {
@@ -115,6 +119,9 @@ h6 {
   color: #2e2f42;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  /* display: block; */
 }
 .menu-link:hover {
   color: #404bbf;
@@ -132,6 +139,11 @@ h6 {
   gap: 40px;
 }
 
+.mail-link {
+  display: block;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
 .mail {
   text-decoration: none;
   font-size: 16px;
@@ -139,6 +151,7 @@ h6 {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
 }
 .mail:hover {
   color: #404bbf;
@@ -154,6 +167,7 @@ h6 {
   color: #434455;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  display: block;
 }
 .tel:hover {
   color: #404bbf;
@@ -276,7 +290,7 @@ h6 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 76px;
+  margin-bottom: 72px;
 }
 
 .section-portfolio {

@@ -39,7 +39,6 @@ h6 {
   text-align: center;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  margin-bottom: 48px;
   max-width: 496px;
 }
 
@@ -65,8 +64,6 @@ h6 {
 .header-navigation {
   display: flex;
   align-items: center;
-  /* padding-bottom: 24px;
-  padding-top: 24px; */
 }
 .container-header {
   display: flex;
@@ -182,6 +179,7 @@ h6 {
 .section-title-item {
   display: flex;
   justify-content: center;
+  margin-bottom: 48px;
 }
 
 .section-title {
